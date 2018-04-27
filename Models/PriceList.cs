@@ -18,7 +18,6 @@ namespace Models
         {
             StartingDate = DateTime.Now;
             ExpirationDate = StartingDate.AddDays(356);
-
         }
     }
 }

@@ -23,8 +23,7 @@ namespace DbRepository
         }
         public IQueryable<T> All<T>() where T : class, new()
         {
-            //if (_db.GetCollection<T>(_collection).AsQueryable().Count() == 0)
-                return _db.GetCollection<T>(_collection).AsQueryable();
+            return _db.GetCollection<T>(_collection).AsQueryable();
         }
     }
 }

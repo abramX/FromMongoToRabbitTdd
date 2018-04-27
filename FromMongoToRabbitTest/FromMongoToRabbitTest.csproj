@@ -65,6 +65,10 @@
       <Project>{d344346a-78a9-4664-b80e-d24a7f926638}</Project>
       <Name>Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PublisherLib\PublisherLib.csproj">
+      <Project>{bce98ffc-2741-4356-b746-f3841135e3c4}</Project>
+      <Name>PublisherLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
